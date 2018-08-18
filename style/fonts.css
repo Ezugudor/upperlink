@@ -1,0 +1,43 @@
+@font-face{
+	font-family: 'jua';
+	src:url('fonts/jua/jua-regular.ttf');
+}
+@font-face{
+	font-family: 'Farsan';
+	src:url('fonts/Farsan/Farsan-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Exo';
+	src:url('fonts/Exo/Exo-Light.ttf');
+}
+
+@font-face{
+	font-family: 'ABeeZee';
+	src:url('fonts/ABeeZee/ABeeZee-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Bungee Hairline';
+	src:url('fonts/Bungee_Hairline/BungeeHairline-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Baloo Paaji'; /*   Very Bold and Tick  */
+	src:url('fonts/Baloo_Paaji/BalooPaaji-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Julius Sans One';
+	src:url('fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Tajawal';
+	src:url('fonts/Tajawal/Tajawal-ExtraLight.ttf');
+}
+
+@font-face{
+	font-family: 'Text Me One';
+	src:url('fonts/Text_Me_One/TextMeOne-Regular.ttf');
+}

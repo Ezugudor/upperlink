@@ -1,0 +1,109 @@
+.drawer{
+    position: relative;
+    background:#dedede;
+    background: -webkit-linear-gradient(top,#fff,#ccc);
+    height:55px;
+    padding:2px;
+}
+.drawer .content{
+    position: absolute;
+    left:-800px;
+    z-index: 888;
+    background:#f7f7f7;
+    width:80%;
+    min-height:2400px;
+    top: 100%;
+    transition: left .1s ease;
+}
+.drawer label[for="sidebar-toggler-main"]{ z-index: 9;cursor: pointer;padding:10px;position: absolute;left: 10px;top:7px; }
+.drawer label[for="sidebar-toggler-main"]:before{ content: "\f20d";font-family: ionicons;font-size:30px;position:relative;top:-10px;margin-right: 10px; }
+.drawer label[for="sidebar-toggler-main"]:hover{opacity: .7 }
+.drawer label[for="sidebar-toggler-main"]:active{opacity: .2 }
+
+.drawer input[type="checkbox"]{
+	display: none;
+}
+.drawer input[name="toggle-sidebar-m"]:checked ~ .content{
+	position: absolute;
+	left:0px;
+	width:100%;
+	
+}
+.drawer input[name="toggle-sidebar-m"]:checked + label:before{
+	content: "\f20e";
+	font-family: ionicons;
+	margin-right: 10px;
+}
+
+/*addon sidebar*/
+.drawer label[for="sidebar-toggler-addon"]{ z-index: 9;cursor: pointer;padding:10px;position: absolute;right: 10px;top:7px; }
+.drawer label[for="sidebar-toggler-addon"]:before{ content: "\f453";font-family: ionicons;display:inline-block;color:#666;-webkit-transform:scale(1.5,1);font-size:30px;position:relative;top:-10px;margin-right: 10px; }
+.drawer label[for="sidebar-toggler-addon"]:hover{opacity: .7 }
+.drawer label[for="sidebar-toggler-addon"]:active{opacity: .2 }
+
+.drawer input[name="toggle-sidebar-a"]:checked ~ .content-addon{
+    position: absolute;
+    right:0px;
+    width:100%;
+    
+}
+
+.drawer .content-addon{
+    position: absolute;
+    right:-800px;
+    z-index: 888;
+    background:#f7f7f7;
+    width:80%;
+    min-height:2400px;
+    top: 100%;
+    transition: right .1s ease;
+}
+
+
+.mobile-nav li{
+     border-bottom:1px solid #00172B;
+     border-right:1px solid #00172B;
+     border-collapse: collapse;
+     display: inline-block;
+     /*font-family: monda;*/
+     padding: 0px;
+
+}
+.mobile-nav li .ion{
+     margin-right: 10px;
+     font-size: 25px
+
+}
+.mobile-nav li .menu-text{
+     position:relative;
+     top:-4px;
+
+}
+.mobile-nav li a{
+    /*background: red;*/
+    display: block;
+    padding-left: 35px;
+    padding-right: 0px
+
+}
+ul.side-bar li{
+    list-style: none;
+}
+ul.side-bar li a{
+    padding:20px 60px;
+    display: block;
+    color:#555;
+    font-family: Baloo Paaji;
+    border-bottom: 1px solid #dedede
+}
+ul.side-bar li:last-child a{
+    border-bottom: none
+}
+
+
+
+
+
+
+
+

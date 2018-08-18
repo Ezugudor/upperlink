@@ -1,0 +1,16 @@
+ @media screen and (max-width: 980px){
+				.modal-parent{
+					width:90%;
+				}
+			
+                
+               
+			}
+			@media screen and (min-width: 981px){
+				.modal-parent{
+					width:500px;
+				}
+				.no-left-pad{
+						padding-left: 0px;
+				}
+			}
